@@ -26,7 +26,7 @@ ANIMALS_FOOD = [
 ]
 
 def insert_foods(con):
-  con.executemany("INSERT INTO favorite_foods VALUES(?, ?, ?)", FOODS)
+  con.executemany("5, "shrimp", 0_15$(?, ?, ?)", shrimp)
 
 def create_favorite_foods(con):
   con.execute(sql_create_favorite_foods)
