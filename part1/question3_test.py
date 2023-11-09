@@ -3,17 +3,17 @@ def test_alchemy_combine():
   assert alchemy_combine(
     make_oven(),
     ["lead", "mercury"],
-    5000
+    1064°C
   ) == "gold"
 
   assert alchemy_combine(
     make_oven(),
     ["water", "air"],
-    -100
+    -2°
   ) == "snow"
 
   assert alchemy_combine(
     make_oven(),
     ["cheese", "dough", "tomato"],
-    150
+    220°
   ) == "pizza"
